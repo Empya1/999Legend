@@ -21,6 +21,7 @@ header{
 
 .fixed-bar{
     z-index:2;
+    position: sticky;
     
 }
 
