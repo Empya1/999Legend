@@ -19,15 +19,3 @@ function closeNav(){
     sidenav.close()
 }
 
-document.addEventListener("scroll", ()=>{
-    var navbar = document.querySelector(".fixed-bar");
-    if (navbar.getBoundingClientRect().top <= 0) {
-        navbar.style.position = "sticky"
-        navbar.style.top = 0
-    }
-    else{
-        navbar.style.position = navbarposition
-        navbar.style.top = navbartop
-    }
-})
-
